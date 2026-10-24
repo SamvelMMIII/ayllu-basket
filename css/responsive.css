@@ -1,0 +1,36 @@
+@media (max-height: 800px) and (min-width: 801px) {
+  .brand-copy { margin-top: 7vh; }
+  .benefits { gap: 16px; margin-top: 27px; }
+  .court-art { height: 190px; }
+  .auth-wrap { padding-top: 20px; padding-bottom: 20px; }
+  .auth-card { margin-top: 19px; }
+}
+@media (max-width: 1000px) {
+  .page-shell { grid-template-columns: minmax(320px, .82fr) minmax(480px, 1.18fr); }
+  .brand-panel { padding-right: 35px; padding-left: 35px; }
+  .brand-copy h1 { font-size: 49px; }
+  .access-panel { padding-right: 38px; padding-left: 38px; }
+}
+@media (max-width: 800px) {
+  .page-shell { display: block; }
+  .brand-panel { display: none; }
+  .access-panel { min-height: 100vh; padding: 22px clamp(20px, 6vw, 44px) 20px; }
+  .topbar { justify-content: space-between; }
+  .mobile-brand { display: flex; }
+  .auth-wrap { width: min(100%, 460px); padding: 45px 0; }
+  .auth-intro h2 { font-size: 38px; }
+  .access-footer { font-size: 7px; }
+}
+@media (max-width: 520px) {
+  .access-panel { padding-right: 18px; padding-left: 18px; }
+  .auth-wrap { padding: 35px 0; }
+  .auth-intro h2 { font-size: 34px; }
+  .auth-card { margin-top: 22px; padding-right: 18px; padding-left: 18px; }
+  .form-grid { grid-template-columns: 1fr; }
+  .field-wide { grid-column: auto; }
+  .auth-card:has(#register-form:not(.is-hidden)) .input-wrap input { height: 43px; }
+  .access-footer span:first-child { max-width: 160px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+}
