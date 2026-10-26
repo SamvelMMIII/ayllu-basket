@@ -1,0 +1,17 @@
+:root {
+  color-scheme: light;
+  --wine: #681c25;
+  --wine-deep: #49121a;
+  --wine-soft: #8a3540;
+  --orange: #e99058;
+  --orange-pale: #f5d5bd;
+  --cream: #fbf7f1;
+  --paper: #fffdfa;
+  --ink: #25211f;
+  --muted: #827a74;
+  --line: #e9e1d9;
+  --green: #667e67;
+  --font-display: "Manrope", "Segoe UI", sans-serif;
+  --font-body: "DM Sans", "Segoe UI", sans-serif;
+  --shadow-card: 0 22px 65px rgba(60, 35, 26, .09), 0 2px 8px rgba(60, 35, 26, .04);
+}
